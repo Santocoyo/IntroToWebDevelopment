@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro a talleres</title>
+</head>
+<body>
+    <header>
+        <h1>¡Registrate a los talleres!</h1>
+    </header>
+    <form action="/register">
+        <div>
+            <label for="first">Nombre</label>
+            <input type="text" id="first" name="first" placeholder="Nombre" required>
+            <label for="last">Apellido</label>
+            <input type="text" id="last" name="last" placeholder="apellido" required>
+        </div>
+        <div>
+            <label for="career">Selecciona tu carrera</label>
+            <select name="career" id="career" required>
+                <option value="">-- Selecciona tu carrera --</option>
+                <option value="fisica">Ingeniería Física</option>
+                <option value="mecatronica">Ingeniería Mecatrónica</option>
+                <option value="civil">Ingeniería Civil</option>
+                <option value="reno">Ingeniería en Energías Renovables</option>
+            </select>
+        </div>
+        <div>
+            <p>Taller al que quieres inscribirte</p>
+            <div>
+                <input type="radio" name="taller" value="software" id="software" required>
+                <label for="software">Herramientas de software</label>
+            </div>
+            <div>
+                <input type="radio" name="taller" value="japones" id="japones">
+                <label for="japones">Japones</label>
+            </div>
+            <div>
+                <input type="radio" name="taller" value="web" id="web">
+                <label for="web">Introducción al desarrollo web</label>
+            </div>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+        <button type="submit">Registrarse</button>
+    </form>
+</body>
+</html>
