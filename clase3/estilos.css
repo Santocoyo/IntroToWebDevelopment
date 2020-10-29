@@ -1,0 +1,101 @@
+h1{
+    color: purple;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: red dashed 5px;
+    border-radius: 5%;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+button{
+    background-color: orange;
+    border-radius: 50%;
+}
+
+body{
+    background-color: #999999;
+    font-family: Didot, Arial, sans-serif;
+    margin: 0px;
+}
+
+#primero{
+    background-color: blueviolet;
+    font-weight: 700;
+}
+
+#segundo{
+    background-color: #ccc;
+    text-decoration: underline dashed;
+    text-decoration-color: blueviolet;
+    text-transform: uppercase;
+}
+
+#tercero{
+    color: rgb(255, 255, 0);
+}
+
+p{
+    text-align: justify;
+}
+
+.bienvenida{
+    background-color: green;
+}
+.userSign{
+    background-color: cadetblue;
+}
+
+p a{
+    background-color: #f00;
+}
+
+section > ul{
+    color: blue;
+}
+
+input[type="text"]{
+    background-color: yellow;
+}
+
+a[href="https://google.com"]{
+    color: blue;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+
+button:active{
+    background-color: #900;
+}
+
+#personas li:nth-of-type(2n-1){
+    background-color: deeppink;
+}
+#personas li:nth-of-type(2n){
+    background-color: green;
+}
+
+p::selection{
+    background-color: gold;
+    color: firebrick;
+}
+
+input{
+    display: block;
+}
+
+li{
+    display: inline;
+}
+
+#spanSegundo{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
